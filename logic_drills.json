@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "type": "Sufficient Assumption",
+    "question": "If the lights are on, then someone is home. The lights are on. Therefore, someone is home.\n\nWhich of the following, if assumed, allows the conclusion to be properly drawn?",
+    "choices": [
+      "If someone is home, then the lights are on.",
+      "If the lights are on, then someone is definitely home.",
+      "The lights can only be turned on when someone is home.",
+      "The presence of light always indicates human activity.",
+      "Some lights are on even when no one is home."
+    ],
+    "answer": 2,
+    "explanation": "This bridges the conditional logic to make the conclusion valid. Without assuming the 'only if' condition, the logic is incomplete."
+  },
+  {
+    "id": 2,
+    "type": "Necessary Assumption",
+    "question": "All LSAT students who score above 170 practice logic games daily. Maria scored a 179.\n\nWhich of the following must be true for the conclusion to hold?",
+    "choices": [
+      "Maria practiced logic games daily.",
+      "Anyone who doesn't practice daily can't score above 170.",
+      "Maria was naturally gifted at logic.",
+      "Only logic games training boosts LSAT scores.",
+      "Maria never missed a practice session."
+    ],
+    "answer": 0,
+    "explanation": "To support the conclusion about Maria, it's necessary that she shares the same trait as all high-scorers \u2014 practicing logic games daily."
+  },
+  {
+    "id": 3,
+    "type": "Inference",
+    "question": "No students who missed orientation received a scholarship. Leo received a scholarship.\n\nWhich of the following can be properly inferred?",
+    "choices": [
+      "Leo missed orientation.",
+      "Leo did not receive a scholarship.",
+      "Leo attended orientation.",
+      "Scholarships are based solely on orientation attendance.",
+      "Orientation is mandatory for all students."
+    ],
+    "answer": 2,
+    "explanation": "The contrapositive applies here. If missing orientation \u2192 no scholarship, and Leo did get one, then he must have attended."
+  }
+]
