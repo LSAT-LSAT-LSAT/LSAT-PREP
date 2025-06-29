@@ -19,7 +19,7 @@ daily_tasks = {
 }
 
 today = str(datetime.date.today())
-if st.sidebar.button("🔥 Launch Logic Drill Mode"):
+#if st.sidebar.button("🔥 Launch Logic Drill Mode"):
     
 
 # Load saved progress if exists
