@@ -19,6 +19,8 @@ daily_tasks = {
 }
 
 today = str(datetime.date.today())
+if st.sidebar.button("🔥 Launch Logic Drill Mode"):
+    st.switch_page("drill_mode.py")
 
 # Load saved progress if exists
 def load_progress():
