@@ -18,6 +18,10 @@ daily_tasks = {
     "Mistake Log Update": False
 }
 
+if st.sidebar.button("🔥 Launch Logic Drill Mode"):
+    st.info("Switch pages using the sidebar ➡️")
+
+
 today = str(datetime.date.today())
 #if st.sidebar.button("🔥 Launch Logic Drill Mode"):
     
